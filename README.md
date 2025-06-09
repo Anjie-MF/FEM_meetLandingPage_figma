@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Anjie-MF/FEM_meetLandingPage_figma)
+- Live Site URL: [GitHub Pages](https://anjie-mf.github.io/FEM_meetLandingPage_figma/)
 
 ## My process
 
