@@ -171,6 +171,7 @@ header {
 .hero-buttons {
     display: flex;
     gap: 17px;
+    cursor: pointer;
 }
 
 .hero-buttons .blue {
