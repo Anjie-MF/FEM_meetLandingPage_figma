@@ -89,6 +89,8 @@ textarea:not([rows]) {
     scroll-margin-block: 5ex;
 }
 
+
+
 /* =======================================================
      DESKTOP STYLES
    ======================================================= */
@@ -99,6 +101,39 @@ body {
     font-family: "Red Hat Display", sans-serif;
     display: flex;
     flex-direction: column;
+}
+
+/* ======================
+     GLOBAL COMPONENTS 
+    =========================*/
+.vertical-line {
+    background-color: #d1d1d1;
+    width: 1px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.circle {
+    width: 56px;
+    height: 56px;
+    background-color: #d1d1d1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #535353;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 110%;
+    font-weight: 800;
+    color: #28283d;
+    padding-bottom: 32px;
 }
 
 /* ======================
@@ -339,7 +374,7 @@ section .component-marker2 {
     z-index: 3;
     transform: translateY(-80%);
 }
-
+/* 
 section .vertical-line {
     background-color: #d1d1d1;
     width: 1px;
@@ -360,7 +395,7 @@ section .circle {
     align-items: center;
     color: #535353;
     font-weight: bold;
-}
+} */
 
 .footer-hero {
     background-image: url("/desktop/image-footer.jpg");
@@ -397,8 +432,6 @@ section .circle {
 }
 
 .cta h2 {
-    font-size: 2.5rem;
-    line-height: 110%;
     color: white;
     text-align: left;
     margin: 0;
