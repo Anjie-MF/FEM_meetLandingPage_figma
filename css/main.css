@@ -165,7 +165,7 @@ header {
     line-height: 150%;
     letter-spacing: 4px;
     text-align: center;
-    color: #87879D;
+    color: black;
 }
 
 .hero-buttons {
@@ -182,7 +182,7 @@ header {
     border-radius: 29px;
     font-size: 1rem;
     line-height: 150%;
-    background-color: #4d96a9;
+    background-color: #2E5D6A;
 }
 
 .hero-buttons span {
@@ -253,7 +253,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #535353;
     font-weight: bold;
 }
 
@@ -303,7 +303,7 @@ main {
     line-height: 110%;
     letter-spacing: 4px;
     font-weight: 600;
-    color: #8fe3f9;
+    color: #487682;
     text-transform: uppercase;
     padding-bottom: 16px;
 }
@@ -366,7 +366,7 @@ section .circle {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #535353;
     font-weight: bold;
 }
 
@@ -375,6 +375,7 @@ section .circle {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #28283d;
     grid-column: 1 / -1;
     grid-row: 1;
     padding: 112px 80px;
@@ -429,7 +430,7 @@ section .circle {
     font-size: 1rem;
     line-height: 150%;
     background-color: #855FB1;
-    color: white;
+    color: black;
     align-self: center;
     justify-self: center;
 }
