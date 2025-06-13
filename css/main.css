@@ -96,9 +96,6 @@ html,
 body {
     height: 100%;
     margin: 0;
-}
-
-body {
     font-family: "Red Hat Display", sans-serif;
     display: flex;
     flex-direction: column;
@@ -112,7 +109,6 @@ header {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto auto;
     align-items: center;
-    position: relative;
     flex-shrink: 0;
 }
 
@@ -340,7 +336,6 @@ section .component-marker2 {
     grid-column: 6 / 8;
     align-self: start;
     justify-self: center;
-    position: relative;
     z-index: 3;
     transform: translateY(-80%);
 }
@@ -376,7 +371,6 @@ section .circle {
     grid-column: 1 / -1;
     grid-row: 1;
     padding: 112px 80px;
-    position: relative;
     z-index: 1;
 }
 
@@ -448,18 +442,14 @@ section .circle {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         align-items: center;
-        position: relative;
     }
 
     .logo {
-        padding: 48px 80px 0px 80px;
         align-self: center;
         justify-self: center;
         grid-column: 4 / 6;
         grid-row: 1;
         gap: 8px;
-        width: 150px;
-        height: 50px;
     }
 
     .hero {
@@ -558,7 +548,6 @@ section .circle {
     }
 
     .logo {
-        padding: 48px 80px 0 80px;
         grid-column: 1 / -1;
     }
 
