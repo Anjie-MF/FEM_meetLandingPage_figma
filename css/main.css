@@ -109,16 +109,16 @@ body {
 .vertical-line {
     background-color: #d1d1d1;
     width: 1px;
-    height: 80px;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 25px;
+    /* margin-left: 25px; */
 }
 
 .circle {
-    width: 56px;
-    height: 56px;
+    width: 3.5rem;
+    height: 3.5rem;
     background-color: #d1d1d1;
     border-radius: 50%;
     display: flex;
@@ -374,28 +374,6 @@ section .component-marker2 {
     z-index: 3;
     transform: translateY(-80%);
 }
-/* 
-section .vertical-line {
-    background-color: #d1d1d1;
-    width: 1px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 25px;
-}
-
-section .circle {
-    width: 56px;
-    height: 56px;
-    background-color: #d1d1d1;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #535353;
-    font-weight: bold;
-} */
 
 .footer-hero {
     background-image: url("/desktop/image-footer.jpg");
@@ -466,7 +444,7 @@ section .circle {
 /* =======================================================
             TABLET STYLES
   ======================================================= */
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 60rem) {
 
     /* ======================
      HEADER SECTION 
@@ -569,7 +547,7 @@ section .circle {
 /* ========================================================
   MOBILE STYLES
   ======================================================== */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 48rem) {
 
     /* ======================
      HEADER SECTION 
